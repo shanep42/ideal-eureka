@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
+import Footer from './components/Footer';
+
+import About from './components/pages/About';
 
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About Me')
 
+  const changePage = (page) => setCurrentPage(page);
+
   const renderPage = () => {
-    if (currentPage == 'About Me') {
-      return (
-        <div>
-          <img src='#' alt='a recent photo/avatar of me'></img>
-          <p>A brief bio about me</p>
-        </div>
-      )
+    if (currentPage === 'About Me') {
+      return <About />
     }
-    if (currentPage == 'Portfolio') {
+    if (currentPage === 'Portfolio') {
       return (
         <div>Portfolio</div>
       )
@@ -22,10 +22,13 @@ function App() {
 
   }
 
+  console.log(currentPage)
+
   return (
     <div className="container">
       <Header />
       {renderPage()}
+      <Footer />
     </div>
   );
 }
