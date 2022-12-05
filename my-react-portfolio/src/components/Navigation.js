@@ -6,15 +6,27 @@ const styles = {
     }
 }
 
-function Navigation() {
+function Navigation({ currentPage, setCurrentPage }) {
 
     return (
-        <ul style={styles.ul}>
-            <li>About Me</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-            <li>Resume</li>
-        </ul>
+        <nav>
+            <ul style={styles.ul}>
+                <li
+                    className={currentPage == 'About Me' ? 'navItem active' : 'navItem'}
+                    onClick={() => setCurrentPage('About Me')}>
+                    About Me
+                </li>
+                <li
+                    className={currentPage == 'Portfolio' ? 'navItem active' : 'navItem'}
+                    onClick={() => setCurrentPage('Portfolio')}>Portfolio</li>
+                <li
+                    className={currentPage === "Contact" ? 'navItem active' : 'navItem'}
+                    onClick={() => setCurrentPage('Contact')}>Contact</li>
+                <li
+                    className={currentPage === "Resume" ? 'navItem active' : 'navItem'}
+                    onClick={() => setCurrentPage('Resume')}>Resume</li>
+            </ul>
+        </nav >
     )
 }
 

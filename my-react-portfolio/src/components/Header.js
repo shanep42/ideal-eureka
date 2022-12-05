@@ -1,11 +1,10 @@
-// import React, { useState } from 'react';
 import Navigation from "./Navigation";
 
-function Header() {
+function Header({ currentPage, setCurrentPage }) {
     return (
         <div>
             <h1>Shane Peterson</h1>
-            <Navigation />
+            <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage} />
         </div>
     )
 }
