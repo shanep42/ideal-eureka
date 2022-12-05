@@ -8,15 +8,20 @@ import About from './components/pages/About';
 function App() {
   const [currentPage, setCurrentPage] = useState('About Me')
 
-  const changePage = (page) => setCurrentPage(page);
-
   const renderPage = () => {
     if (currentPage === 'About Me') {
       return <About />
-    }
-    if (currentPage === 'Portfolio') {
+    } else if (currentPage === 'Portfolio') {
       return (
         <div>Portfolio</div>
+      )
+    } else if (currentPage === 'Contact') {
+      return (
+        <div>Contact</div>
+      )
+    } else if (currentPage === 'Resume') {
+      return (
+        <div>Resume</div>
       )
     }
 
@@ -26,7 +31,7 @@ function App() {
 
   return (
     <div className="container">
-      <Header />
+      <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
       {renderPage()}
       <Footer />
     </div>
