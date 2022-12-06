@@ -13,7 +13,7 @@ function App() {
       return <About />
     } else if (currentPage === 'Portfolio') {
       return (
-        <div>Portfolio</div>
+        <About />
       )
     } else if (currentPage === 'Contact') {
       return (
