@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 import About from './components/pages/About';
+import Portfolio from './components/pages/Portfolio';
 
 
 function App() {
@@ -12,9 +13,7 @@ function App() {
     if (currentPage === 'About Me') {
       return <About />
     } else if (currentPage === 'Portfolio') {
-      return (
-        <About />
-      )
+      return < Portfolio />
     } else if (currentPage === 'Contact') {
       return (
         <div>Contact</div>
