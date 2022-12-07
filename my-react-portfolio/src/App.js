@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 
 import About from './components/pages/About';
 import Portfolio from './components/pages/Portfolio';
+import Contact from './components/pages/Contact';
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       return < Portfolio />
     } else if (currentPage === 'Contact') {
       return (
-        <div>Contact</div>
+        <Contact />
       )
     } else if (currentPage === 'Resume') {
       return (
