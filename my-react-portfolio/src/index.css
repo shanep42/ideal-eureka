@@ -175,6 +175,7 @@ body {
 
 body#bg-img {
   /* background: url(../img/background.jpg); */
+  /* background: url(./img/background.jpg); */
   background-attachment: fixed;
   background-size: cover;
 }
@@ -414,7 +415,7 @@ main#home h1 {
   }
 
   .menu-branding .portrait {
-    /* background: url("../img/portrait_small.jpeg"); */
+    /* background: url("../img/portrait_small.png"); */
     width: 150px;
     height: 150px;
   }
