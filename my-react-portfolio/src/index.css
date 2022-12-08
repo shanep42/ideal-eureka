@@ -14,7 +14,7 @@ code {
 
 .active {
   font-weight: bold;
-  background-color: blue;
+  color: #eece1a;
 }
 
 .navItem {
@@ -115,7 +115,7 @@ ul {
   border: solid 3px #eece1a;
 }
 
-.menu .nav-item {
+/* .menu .nav-item {
   transform: translate3d(600px, 0, 0);
   transition: all 0.5s ease-out;
 }
@@ -126,9 +126,9 @@ ul {
 
 .menu .nav-item.current>a {
   color: #eece1a;
-}
+} */
 
-.menu .nav-link {
+.nav-item {
   display: inline-block;
   position: relative;
   font-size: 30px;
@@ -139,6 +139,23 @@ ul {
   text-decoration: none;
   transition: all 0.5s ease-out;
 }
+
+.nav-item.active{
+  color: #eece1a
+}
+
+/* .menu .nav-link {
+  display: inline-block;
+  position: relative;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 1rem 0;
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+} */
+
 
 .menu .nav-link:hover {
   color: #eece1a;

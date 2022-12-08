@@ -3,7 +3,12 @@ import Navigation from "./Navigation";
 function Header({ currentPage, setCurrentPage }) {
     return (
         <div>
-            <h1>Shane Peterson</h1>
+            <h1 class="lg-heading">
+            Shane <span class="text-secondary">Peterson</span>
+            </h1>
+            <h2 class="sm-heading">
+            Web Developer
+            </h2>
             <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage} />
         </div>
     )
