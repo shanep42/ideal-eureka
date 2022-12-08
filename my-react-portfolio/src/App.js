@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 import About from './components/pages/About';
+import Portfolio from './components/pages/Portfolio';
+import Contact from './components/pages/Contact';
 
 
 function App() {
@@ -12,12 +14,10 @@ function App() {
     if (currentPage === 'About Me') {
       return <About />
     } else if (currentPage === 'Portfolio') {
-      return (
-        <div>Portfolio</div>
-      )
+      return < Portfolio />
     } else if (currentPage === 'Contact') {
       return (
-        <div>Contact</div>
+        <Contact />
       )
     } else if (currentPage === 'Resume') {
       return (
