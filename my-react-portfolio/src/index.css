@@ -337,7 +337,8 @@ main#home h1 {
   font-size: 2rem;
   border: 3px #fff solid;
   padding: 1.5rem 2.5rem;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
+  margin: 10rem;
   transition: all 0.5s ease-out;
 }
 

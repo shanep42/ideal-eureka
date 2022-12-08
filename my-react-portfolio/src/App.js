@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import About from './components/pages/About';
 import Portfolio from './components/pages/Portfolio';
 import Contact from './components/pages/Contact';
+import Resume from './components/pages/Resume';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
       )
     } else if (currentPage === 'Resume') {
       return (
-        <div>Resume</div>
+        <Resume />
       )
     }
 
