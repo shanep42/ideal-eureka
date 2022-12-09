@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ideal-eureka/static/css/main.c2e805d6.css",
+    "main.js": "/ideal-eureka/static/js/main.43bf867d.js",
+    "static/js/787.56d9acf9.chunk.js": "/ideal-eureka/static/js/787.56d9acf9.chunk.js",
+    "index.html": "/ideal-eureka/index.html",
+    "main.c2e805d6.css.map": "/ideal-eureka/static/css/main.c2e805d6.css.map",
+    "main.43bf867d.js.map": "/ideal-eureka/static/js/main.43bf867d.js.map",
+    "787.56d9acf9.chunk.js.map": "/ideal-eureka/static/js/787.56d9acf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2e805d6.css",
+    "static/js/main.43bf867d.js"
+  ]
+}
