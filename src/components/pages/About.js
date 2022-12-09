@@ -12,9 +12,7 @@ function About() {
                     <img src="./img/portrait.png" alt="Shane" className="bio-image" />
                     <div className="bio">
                         <h3 className="text-secondary">BIO</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis suscipit consequatur, culpa
-                            perspiciatis ex laborum, aliquid necessitatibus exercitationem soluta, dolor laboriosam quisquam at?
-                            Nisi saepe eos laboriosam dignissimos quam cum?</p>
+                        <p>I'm a new web developer, based in the Chicagoland area.</p>
                     </div>
 
                     <div className="job job-1">
