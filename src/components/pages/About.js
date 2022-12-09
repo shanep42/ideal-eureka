@@ -5,9 +5,7 @@ function About() {
                 <h1 className="lg-heading">
                     About <span className="text-secondary">Me</span>
                 </h1>
-                <h2 className="sm-heading">
-                    Let me tell you a little about myself...
-                </h2>
+
                 <div className="about-info">
                     <img src="./img/portrait.png" alt="Shane" className="bio-image" />
                     <div className="bio">
