@@ -16,22 +16,19 @@ function About() {
                     </div>
 
                     <div className="job job-1">
-                        <h3>123 Webshop</h3>
-                        <h6>Full Stack Developer</h6>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A porro dolorem perferendis voluptatem
-                            ipsam quibusdam culpa maiores odio asperiores in.</p>
+                        <h3>Gaming Grandpas</h3>
+                        <h6>API Wrangler</h6>
+                        <p>Worked with student coder group Gaming Grandpas to come up with a tool to search for sales on digital video games from a variety of online retailers</p>
                     </div>
                     <div className="job job-2">
-                        <h3>ABC Designers</h3>
-                        <h6>Front End Developer</h6>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A porro dolorem perferendis voluptatem
-                            ipsam quibusdam culpa maiores odio asperiores in.</p>
+                        <h3>The Best Men</h3>
+                        <h6>Back-End Developer </h6>
+                        <p>Fought tooth and nail with some not-so-super Models to let the Best Men without a wedding develop a tool for finding and saving your favorite cocktails</p>
                     </div>
                     <div className="job job-3">
-                        <h3>QED Dataworks</h3>
-                        <h6>Back End Developer</h6>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A porro dolorem perferendis voluptatem
-                            ipsam quibusdam culpa maiores odio asperiores in.</p>
+                        <h3>TBA</h3>
+                        <h6>Junior Developer</h6>
+                        <p>Soon to embark on the next big step of my full-stack webdev journey</p>
                     </div>
                 </div>
 
