@@ -21,6 +21,11 @@ code {
   font-size: larger;
 }
 
+.navItem:hover {
+  cursor: pointer;
+  color:#eece1a
+}
+
 ul {
   display: flex;
   list-style: none;
@@ -249,15 +254,15 @@ main {
   min-height: calc(100vh - 60px);
 }
 
-main .icons {
+.icons {
   margin-top: 1rem;
 }
 
-main .icons a {
+.icons a {
   padding: 0.4rem;
 }
 
-main .icons a:hover {
+.icons a:hover {
   color: #eece1a;
   transition: all 0.5s ease-out;
 }
@@ -346,6 +351,7 @@ main#home h1 {
   padding: 0.5rem 1.5rem;
   background: #eece1a;
   color: #000;
+  cursor: pointer;
 }
 
 .boxes div:hover span {

@@ -12,6 +12,7 @@ const Contact = () => {
 
     const {name, email, message} = formState;
 
+    // I expected to need this so that the form could be updated as you type, but I seem to just... not?
     function handleChange(e){
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
@@ -28,7 +29,7 @@ const Contact = () => {
     }
 
     function handleBlank(e) {
-        if (e.target.name === 'Name' || e.target.name === 'Message') {
+        if (e.target.name === 'name' || e.target.name === 'message' || e.target.name ==='Email') {
             if (!e.target.value.length) {
                 setErrorMessage(`${e.target.name} is required.`)
             } else {
@@ -75,7 +76,7 @@ const Contact = () => {
                     <input 
                         type='email'
                         defaultValue={email}
-                        name='email'
+                        name='Email'
                         onBlur={handleBlank}
                     />
                 </div>
@@ -85,6 +86,7 @@ const Contact = () => {
                     <input 
                         type='text'
                         defaultValue={message}
+                        name='Message'
                         onBlur={handleBlank}
                     />
                 </div>

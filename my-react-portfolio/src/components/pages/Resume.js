@@ -1,7 +1,7 @@
 import React from 'react'
 // TODO: Put resume in proper place once someone can help me structure this for deployment
 // import resume from
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 
 function Resume() {
     return (
