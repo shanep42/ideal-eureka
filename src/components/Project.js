@@ -1,9 +1,9 @@
-function Project({ title, image, repoURL, deployURL  }) {
+function Project({ title, image, repoURL, deployURL }) {
     return (
         <div className="item">
-            <a href="#!">
-                <img src={image} alt="Project" />
-            </a>
+
+            <img src={image} alt="Project" />
+
             <a href={deployURL} target='_blank' className="btn-light">
                 <i className="fas fa-eye"></i> {title}
             </a>

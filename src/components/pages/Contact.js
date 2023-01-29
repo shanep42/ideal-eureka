@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { validateEmail } from '../../utils/emailValidate';
 
 const Contact = () => {
@@ -10,10 +10,10 @@ const Contact = () => {
 
     const [errorMessage, setErrorMessage] = useState('');
 
-    const {name, email, message} = formState;
+    const { name, email, message } = formState;
 
     // I expected to need this so that the form could be updated as you type, but I seem to just... not?
-    function handleChange(e){
+    function handleChange(e) {
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
             if (!isValid) {
@@ -29,7 +29,7 @@ const Contact = () => {
     }
 
     function handleBlank(e) {
-        if (e.target.name === 'name' || e.target.name === 'message' || e.target.name ==='Email') {
+        if (e.target.name === 'name' || e.target.name === 'message' || e.target.name === 'Email') {
             if (!e.target.value.length) {
                 setErrorMessage(`${e.target.name} is required.`)
             } else {
@@ -37,29 +37,29 @@ const Contact = () => {
             }
         }
         if (!errorMessage) {
-            setFormState({...formState, [e.target.name]: e.target.value});
+            setFormState({ ...formState, [e.target.name]: e.target.value });
         }
     }
 
     return (
         <main id="contact">
-             <h1 className="lg-heading">
+            <h1 className="lg-heading">
                 Contact <span className="text-secondary">Me</span>
             </h1>
-            {/*<h2 className="sm-heading">
+            <h2 className="sm-heading">
                 This is how you can reach me.
             </h2>
             <div className="boxes">
                 <div>
-                    <span className="text-secondary">Email:</span> shanep42@gmail.com
+                    <span className="text-secondary">Email:</span> <a href='mailto:shanep42@gmail.com'>shanep42@gmail.com</a>
                 </div>
                 <a href='https://github.com/shanep42'>
                     <div>
                         <span className="text-secondary">Github:</span> shanep42
                     </div>
                 </a>
-            </div> */}
-            <form>
+            </div>
+            {/* <form>
                 <div>
                     <label htmlFor='Name'>Name:</label>
                     <br></br>
@@ -96,7 +96,7 @@ const Contact = () => {
                     </div>
                 )}
                 <button type='submit'>Submit</button>
-            </form>
+            </form> */}
         </main>
     )
 }

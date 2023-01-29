@@ -23,7 +23,7 @@ code {
 
 .navItem:hover {
   cursor: pointer;
-  color:#eece1a
+  color: #eece1a
 }
 
 ul {
@@ -145,7 +145,7 @@ ul {
   transition: all 0.5s ease-out;
 }
 
-.nav-item.active{
+.nav-item.active {
   color: #eece1a
 }
 
@@ -196,15 +196,16 @@ body {
 }
 
 body#bg-img {
-  /* background: url(../img/background.jpg); */
+  background: url('../src/assets/img/background.jpg');
   /* background: url(./img/background.jpg); */
   background-attachment: fixed;
   background-size: cover;
+  max-height: 100%;
 }
 
 body#bg-img:after {
   content: '';
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 100%;
@@ -322,6 +323,8 @@ main#home h1 {
 .projects img {
   width: 100%;
   border: 3px #fff solid;
+  height: 70%;
+
 }
 
 .projects img:hover {
@@ -466,4 +469,8 @@ main#home h1 {
   .projects {
     grid-template-columns: 1fr;
   }
+}
+
+.nudge-left {
+  margin-right: 40px
 }

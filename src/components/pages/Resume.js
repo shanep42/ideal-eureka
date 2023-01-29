@@ -5,13 +5,12 @@ import React from 'react'
 
 function Resume() {
     return (
-        <div>           
-            <div className="boxes">
-                {/* <Link to={resume} download>
-                    Download as PDF
-                </Link> */}
-                <div>Download as PDF</div>
-            </div>
+        <div>
+            <a target={'_blank'} href='https://docs.google.com/document/d/1mE1rFdXSAYZk-E459v96n5JbigwGYGreWjsq8iW7rIg/edit?usp=sharing'>
+                <div className="boxes">
+                    <div>Google Doc</div>
+                </div>
+            </a>
         </div>
     )
 }

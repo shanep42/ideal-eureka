@@ -1,4 +1,10 @@
 import Project from "../Project"
+import project1pic from '../../assets/img/project1.png'
+import project2pic from '../../assets/img/project2.png';
+import project3pic from '../../assets/img/project3.png';
+import project4pic from '../../assets/img/project4.png';
+import project5pic from '../../assets/img/project5.png';
+import project6pic from '../../assets/img/project6.png';
 
 function Portfolio() {
     return (
@@ -12,39 +18,39 @@ function Portfolio() {
             <div className="projects">
                 <Project
                     title="Gaming Grandpa Sale Seeker"
-                    image='.\img\Project 1_fitted.png'
+                    image={project1pic}
                     repoURL='https://github.com/Project1TeamThree/p1t3-GamingGrandpas'
                     deployURL='https://project1teamthree.github.io/p1t3-GamingGrandpas/'
                 ></Project>
-                <Project 
+                <Project
                     title='Best Men Virtual Bartender'
-                    image ='.\img\project2.png'
+                    image={project2pic}
                     repoURL='https://github.com/Project2-TheBestMen/project2'
-                    deployURL='https://project2thebestmen.herokuapp.com/'
+                    deployURL='https://virtual-bartender-app.herokuapp.com/'
                 />
-                <Project 
-                    title='<MySQL Employee Tracker'
-                    image='.\img\project3.png'
+                <Project
+                    title='MySQL Employee Tracker'
+                    image={project3pic}
                     repoURL='https://github.com/shanep42/psychic-octo-telegram'
                     deployURL='https://github.com/shanep42/psychic-octo-telegram'
                 />
-                <Project 
+                <Project
                     title='Team Profile Generator'
-                    image='.\img\project4.png'
+                    image={project4pic}
                     repoURL='https://github.com/shanep42/octo-engine'
                     deployURL='https://github.com/shanep42/octo-engine'
                 />
-                <Project 
+                <Project
                     title='Express Note Taker'
-                    image='.\img\project5.png'
+                    image={project5pic}
                     repoURL='https://github.com/shanep42/stunning-octo-lamp'
                     deployURL='https://github.com/shanep42/stunning-octo-lamp'
                 />
-                <Project 
+                <Project
                     title='Weather Dashboard'
-                    image='.\img\project6.png'
+                    image={project6pic}
                     repoURL='https://github.com/shanep42/jupiter-marvel-weather-dash'
-                    deployURL='https://github.com/shanep42/jupiter-marvel-weather-dash'
+                    deployURL='https://shanep42.github.io/jupiter-marvel-weather-dash/'
                 />
             </div>
 

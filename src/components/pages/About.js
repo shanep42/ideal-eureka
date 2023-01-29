@@ -1,3 +1,5 @@
+import portrait from '../../assets/img/portrait.png'
+
 function About() {
     return (
         <div>
@@ -7,7 +9,7 @@ function About() {
                 </h1>
 
                 <div className="about-info">
-                    <img src="./img/portrait.png" alt="Shane" className="bio-image" />
+                    <img src={portrait} alt="Shane" className="bio-image" />
                     <div className="bio">
                         <h3 className="text-secondary">BIO</h3>
                         <p>I'm a new web developer, based in the Chicagoland area.</p>

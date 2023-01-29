@@ -2,7 +2,7 @@ function Navigation({ currentPage, setCurrentPage }) {
 
     return (
         <nav>
-            <ul>
+            <ul className="nudge-left">
                 <li
                     className={currentPage === 'About Me' ? 'navItem active' : 'navItem'}
                     onClick={() => setCurrentPage('About Me')}>
