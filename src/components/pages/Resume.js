@@ -6,7 +6,7 @@ import React from 'react'
 function Resume() {
     return (
         <div>
-            <a target={'_blank'} href='https://docs.google.com/document/d/1mE1rFdXSAYZk-E459v96n5JbigwGYGreWjsq8iW7rIg/edit?usp=sharing'>
+            <a target={'_blank'} href={process.env.RESUME}>
                 <div className="boxes">
                     <div>Google Doc</div>
                 </div>
