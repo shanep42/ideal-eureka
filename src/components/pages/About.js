@@ -12,7 +12,10 @@ function About() {
                     <img src={portrait} alt="Shane" className="bio-image" />
                     <div className="bio">
                         <h3 className="text-secondary">BIO</h3>
-                        <p>I'm a new web developer, based in the Chicagoland area.</p>
+                        <p>As a recent graduate of a full stack developer bootcamp, I am excited to apply my skills and concepts to a career in web development. With previous experience as an Outreach Services Assistant at the Orland Park Public Library and as a Law Library Assistant at Loyola School of Law, I have honed my attention to detail and problem-solving skills, as well as my ability to work collaboratively and manage complex projects.</p>
+                        <p>During my time in the library, I was responsible for managing, cataloging, and maintaining collections of historical artifacts and materials, as well as organizing and managing circulation of library materials. I also coordinated various programs and events, programming musical performances, lectures, and presentations for patrons, and curating monthly displays of local art. These responsibilities required a high level of organizational skills, attention to detail, and the ability to work independently and as part of a team.</p>
+                        <p>In my recent full stack developer bootcamp, I have gained proficiency in various programming languages and frameworks, including HTML/CSS, JavaScript, React, Node.js, and MySQL. I have also developed skills in responsive web design, Git and GitHub, and Agile development methodologies. Through projects and assignments, I have demonstrated my ability to create and deploy web applications from start to finish, working both independently and as part of a team.</p>
+                        <p>Overall, I am excited to bring my diverse skill set and experience to a position, where I can continue to grow and develop my technical skills and contribute to the success of a dynamic team.</p>
                     </div>
 
                     <div className="job job-1">
