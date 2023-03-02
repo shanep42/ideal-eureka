@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ideal-eureka/static/css/main.7dc659c6.css",
-    "main.js": "/ideal-eureka/static/js/main.e62fe83a.js",
+    "main.css": "/ideal-eureka/static/css/main.b643264b.css",
+    "main.js": "/ideal-eureka/static/js/main.11a9692d.js",
     "static/js/787.56d9acf9.chunk.js": "/ideal-eureka/static/js/787.56d9acf9.chunk.js",
     "static/media/background.jpg": "/ideal-eureka/static/media/background.d226be45e238c6011a1f.jpg",
     "static/media/portrait.png": "/ideal-eureka/static/media/portrait.a404cb71e970c9b4ac2c.png",
@@ -10,12 +10,12 @@
     "static/media/project1.png": "/ideal-eureka/static/media/project1.a7f2a33e6b6a41d2c9f5.png",
     "static/media/project4.png": "/ideal-eureka/static/media/project4.ab3d26331db049e8dc84.png",
     "index.html": "/ideal-eureka/index.html",
-    "main.7dc659c6.css.map": "/ideal-eureka/static/css/main.7dc659c6.css.map",
-    "main.e62fe83a.js.map": "/ideal-eureka/static/js/main.e62fe83a.js.map",
+    "main.b643264b.css.map": "/ideal-eureka/static/css/main.b643264b.css.map",
+    "main.11a9692d.js.map": "/ideal-eureka/static/js/main.11a9692d.js.map",
     "787.56d9acf9.chunk.js.map": "/ideal-eureka/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dc659c6.css",
-    "static/js/main.e62fe83a.js"
+    "static/css/main.b643264b.css",
+    "static/js/main.11a9692d.js"
   ]
 }
